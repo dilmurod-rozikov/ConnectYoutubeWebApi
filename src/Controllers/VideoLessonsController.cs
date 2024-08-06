@@ -34,7 +34,6 @@ namespace ElbekningC_Darslari.Controllers
             })
             .OrderByDescending(video => video.PublishedAt).ToList();
 
-
             return Ok(list);
         }
     }
